@@ -1,4 +1,64 @@
-# Welcome to your Lovable project
+# 🎬 Movie Idea Generator
+
+A cinematic web app that transforms short user prompts into full movie concepts.  
+Built with a clean white-and-blue design, smooth animations, and AI-powered storytelling.
+
+## ✨ Features
+- **AI-Powered Generation** – Expand 1–2 sentence ideas into full movie concepts
+- **Comprehensive Output** – Name, genre, tagline, plot, characters, themes, structure, conflict, setting, final scene, end credits, and music theme
+- **Download Option** – Save generated concepts as `.txt` files
+- **Cinematic UI** – White & blue theme with film-inspired icons and smooth animations
+- **Responsive Design** – Works seamlessly on desktop and mobile
+
+## 🚀 How It Works
+1. Enter a short movie idea (1–2 sentences).
+2. Click **Generate**.
+3. The app calls the [OpenRouter](https://openrouter.ai) API (`deepseek/deepseek-chat-v3.1:free`) to generate a complete movie breakdown.
+4. View the results instantly and optionally **download them as a text file**.
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML / CSS / JavaScript (or React, depending on your version)
+- **API**: [OpenRouter AI API](https://openrouter.ai)
+- **Styling**: White & blue gradient theme, cinematic icons, smooth animations
+
+## 🔑 Setup
+1. Clone this repo:
+```
+git clone https://github.com/your-username/movie-idea-generator.git
+cd movie-idea-generator
+```
+
+2. Add your OpenRouter API key in the project:
+```
+const API_KEY = "sk-or-xxxxxxxxxxxxxxxx";
+```
+
+3. Open index.html in your browser (or run with your React dev server).
+
+4. Start generating movie ideas! 🎥
+
+## 📂 Example Output
+
+```
+Movie Idea: The Last Horizon
+Genre: Sci-Fi Adventure
+Tagline: "When the edge of space isn’t the end..."
+Plot Summary: ...
+Key Characters: ...
+Themes: ...
+Story Structure: ...
+Core Conflict: ...
+Setting: ...
+Final Scene: ...
+End Credits: ...
+Music Theme: ...
+```
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+# Lovable project
 
 ## Project info
 
